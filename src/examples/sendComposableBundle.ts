@@ -1,4 +1,4 @@
-import { JsonRpcProvider, TransactionRequest, Wallet, hexlify, toBigInt, toUtf8Bytes } from 'ethers'
+import { JsonRpcProvider, TransactionRequest, Wallet, hexlify, toBigInt, toUtf8Bytes } from 'ethers6'
 
 // lib
 import MevShareClient, { BundleParams } from '..'

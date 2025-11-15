@@ -1,4 +1,4 @@
-import { LogParams } from 'ethers'
+import { LogParams } from 'ethers6'
 
 /**
  * Used to specify which type of event to listen for.

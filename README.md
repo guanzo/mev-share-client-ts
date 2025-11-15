@@ -34,7 +34,7 @@ yarn add ../mev-share-client-ts
 In your project:
 
 ```typescript
-import { Wallet, JsonRpcProvider } from "ethers"
+import { Wallet, JsonRpcProvider } from "ethers6"
 import MevShareClient, {
     BundleParams,
     HintPreferences,
@@ -66,7 +66,7 @@ const mevshare = MevShareClient.useEthereumGoerli(authSigner)
 Networks supported by Flashbots have presets built-in. If it's more convenient, you can instantiate a MevShareClient using a `chainId` (or a ethers.js `Network` object, which has a `chainId` param).
 
 ```typescript
-import { JsonRpcProvider, Wallet } from "ethers" // ethers v6
+import { JsonRpcProvider, Wallet } from "ethers6" // ethers v6
 
 /** connects to Flashbots MEV-Share node on goerli */
 const provider = new JsonRpcProvider("http://localhost:8545", {chainId: 5, name: "goerli"})

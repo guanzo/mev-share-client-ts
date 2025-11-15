@@ -1,5 +1,5 @@
 import axios, { AxiosError } from "axios"
-import { Transaction, Wallet } from 'ethers'
+import { Transaction, Wallet } from 'ethers6'
 import EventSource from "eventsource"
 import { JsonRpcError, NetworkFailure, UnimplementedStreamEvent } from './error'
 import { getRpcRequest, JsonRpcData } from './flashbots';

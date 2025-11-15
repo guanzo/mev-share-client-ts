@@ -1,4 +1,4 @@
-import { id as ethersId, Wallet } from "ethers"
+import { id as ethersId, Wallet } from "ethers6"
 
 export type JsonRpcData = {
     id: number,

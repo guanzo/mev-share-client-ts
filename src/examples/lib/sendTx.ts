@@ -1,4 +1,4 @@
-import { hexlify, toBigInt, toUtf8Bytes, JsonRpcProvider, TransactionRequest } from 'ethers'
+import { hexlify, toBigInt, toUtf8Bytes, JsonRpcProvider, TransactionRequest } from 'ethers6'
 import { HintPreferences } from '../..'
 import { initExample } from './helpers'
 

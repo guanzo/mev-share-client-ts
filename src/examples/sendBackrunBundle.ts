@@ -1,4 +1,4 @@
-import { JsonRpcProvider, formatEther, keccak256 } from 'ethers'
+import { JsonRpcProvider, formatEther, keccak256 } from 'ethers6'
 import { Mutex } from "async-mutex"
 
 // lib

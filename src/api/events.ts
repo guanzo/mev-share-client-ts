@@ -1,4 +1,4 @@
-import { LogParams } from 'ethers';
+import { LogParams } from 'ethers6';
 import { IMevShareEvent, IPendingBundle, IPendingTransaction } from './interfaces';
 
 export class PendingTransaction implements IPendingTransaction {

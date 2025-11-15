@@ -1,4 +1,4 @@
-import { JsonRpcProvider, Wallet } from 'ethers'
+import { JsonRpcProvider, Wallet } from 'ethers6'
 import MevShareClient from '../..'
 import Env from './env'
 import networks from '../../api/networks'
